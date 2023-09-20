@@ -56,7 +56,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            CalConv
+            DateCali
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -105,7 +105,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            DateCali
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
