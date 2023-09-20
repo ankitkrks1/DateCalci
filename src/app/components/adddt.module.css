@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: space-between; /* Distribute elements along the horizontal axis */
+    align-items: center; /* Center elements vertically */
+  }
+  
+  .fullWidth {
+    flex: 1; /* Make the first element take full width */
+  }
+  
+  .centered {
+    text-align: center; /* Center the last element horizontally */
+  }
