@@ -1,21 +1,19 @@
 "use client";
-
 import Typography from "@mui/material/Typography";
 
-import AddDT from "../components/AddDT";
-import SubDT from "../sub/page";
+import DiffDT from "../components/DiffDtT";
 import Style from "../page.module.css";
+
 import NavBar from "../components/NavBar";
-const Add = () => {
+const Sub = () => {
   return (
     <>
-      {" "}
       <NavBar />
       <div className={Style.center}>
-        <AddDT />
+        <DiffDT />
       </div>
     </>
   );
 };
 
-export default Add;
+export default Sub;

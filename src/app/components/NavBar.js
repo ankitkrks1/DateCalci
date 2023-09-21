@@ -13,7 +13,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 
 
-const pages = [{head:'Home',url:'/'}, {head:'Add',url:'/add'}, {head:'Sub',url:'/sub'}];
+const pages = [{head:'Home',url:'/'}, {head:'Add',url:'/add'}, {head:'Sub',url:'/sub'},{head:'Diff',url:'/difference'}];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

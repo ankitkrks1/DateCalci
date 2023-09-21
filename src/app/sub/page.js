@@ -10,19 +10,13 @@ const Sub = ()=>{
 
 
   return (
-    
-    <div className={Style.center}>
-   
+    <>
       <NavBar />
- 
-
-      <Typography variant="h2" gutterBottom>
-        This is Date Calculator
-      </Typography>
-      <SubDT />
-
-  </div>
-  )
+      <div className={Style.center}>
+        <SubDT />
+      </div>
+    </>
+  );
 }
 
 export default Sub

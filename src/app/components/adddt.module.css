@@ -8,6 +8,13 @@
     flex: 1; /* Make the first element take full width */
   }
   
+  
+  
+  .fullWidthWithPadding {
+    width: 100%;
+    padding: 10px; /* Adjust the padding as needed */
+  }
+  
   .centered {
-    text-align: center; /* Center the last element horizontally */
+    text-align: center;
   }

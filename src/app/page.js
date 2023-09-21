@@ -14,15 +14,17 @@ const Home = ()=>{
 
 
   return (
-    
+    <>
+    <NavBar/>
     <div className={Style.center}>
-      <NavBar/>
+      
       <Typography variant="h2" gutterBottom>
-      This is Date Calculator
+      Converter
       </Typography>
       <IST2BST/><br></br>
       <BST2IST/>
     </div>
+    </>
   )
 }
 
