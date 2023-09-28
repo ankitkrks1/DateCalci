@@ -1,3 +1,4 @@
+"use client"
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -11,6 +12,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 
 import MenuItem from '@mui/material/MenuItem';
+import Link from 'next/link';
 
 
 const pages = [{head:'Home',url:'/'}, {head:'Add',url:'/add'}, {head:'Sub',url:'/sub'},{head:'Diff',url:'/difference'}];
@@ -109,13 +111,15 @@ function ResponsiveAppBar() {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-              <Button
+             <Link href={`${page.url}`} style={{textDecoration:'none'}}>
+               <Button
                 key={page.head}
-                onClick={()=>handleCloseNavMenu(page.url)}
+                // onClick={()=>handleCloseNavMenu(page.url)}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page.head}
               </Button>
+             </Link>
             ))}
           </Box>
 

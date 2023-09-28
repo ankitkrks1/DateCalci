@@ -8,14 +8,14 @@ import Typography from "@mui/material/Typography";
 import AddDT from './components/AddDT'
 import SubDT from './sub/page'
 import Style from './page.module.css'
-import NavBar from './components/NavBar'
+
 
 const Home = ()=>{
 
 
   return (
     <>
-    <NavBar/>
+
     <div className={Style.center}>
       
       <Typography variant="h2" gutterBottom>
